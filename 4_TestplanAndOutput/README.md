@@ -1,5 +1,5 @@
 
-# TEST CASES and Corresponding Output
+# TEST CASES
 
 ## High Level Test Cases
 | Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
