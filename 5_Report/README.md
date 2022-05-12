@@ -1,4 +1,4 @@
-# Wiper Control system
+# WIPER CONTROL SYSTEM
 
 Wiper is an essential component that used to wipe raindrops or any water from the vehicle’s windscreen.
 The previous system was used to activate the wiper manually and the process of pulling up the wiper is difficult to be handled. 
