@@ -76,6 +76,36 @@ It is implemented with the help of STM32 with the desired operation of turning o
 # STRUCTURAL DIAGRAM
 ![structural diagram wiper](https://user-images.githubusercontent.com/101271806/168134079-0356ef4b-7d5f-4bf1-b160-da439a3d53da.png)
 
+# TEST CASES 
+
+## High Level Test Cases
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
+| --------|:------------|:--------|:--------|:-----------|:-------------|
+| 1 | check if the BUTTTON is pressed  | program execution | Microcontroller/Engine starts | LED ON(RED)| PASS |
+| 2 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(BLUE)| PASS |
+| 3 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(GREEN)| PASS |
+| 4 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(ORANGE)| PASS |
+| 5 | check if the BUTTTON is pressed  | - | Microcontroller/Engine stops | LED TURNED OFF| PASS |
+
+
+
+
+
+
+
+
+
+## Low Level Test Cases
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
+| --------|:------------|:--------|:--------|:-----------|:-------------|
+| 1 | check if the BUTTTON is pressed  | program execution | Microcontroller/Engine starts | LED ON(RED)| PASS |
+| 2 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is slow | LED ON(BLUE)| PASS |
+| 3 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is moderate | LED ON(GREEN)| PASS |
+| 4 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is good | LED ON(ORANGE)| PASS |
+| 5 | check if the BUTTTON is pressed again | - | Microcontroller/Engine stops | LED TURNED OFF| PASS |
+
+
+
 
 
 
