@@ -1,0 +1,2 @@
+../Src/stm32_startup.c:220:6:default_handler	4	static
+../Src/stm32_startup.c:225:6:reset_handler	32	static
