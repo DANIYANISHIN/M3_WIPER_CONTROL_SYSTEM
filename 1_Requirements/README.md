@@ -1,5 +1,4 @@
-# WIPER CONTROL SYSTEM
-A wiper speed control system for an automobile wiper regulates the operating speed of a wiper in accordance with the amount of rain falling on the windshield. This is a very much essential component in each automobile as it avoids the risk of accidents during rainy conditions.
+
 
 # WORKING PROCESS
 * The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
