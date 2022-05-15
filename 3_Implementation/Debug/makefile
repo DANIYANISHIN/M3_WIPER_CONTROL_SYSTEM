@@ -56,8 +56,8 @@ all: main-build
 main-build: Wiper_System_Project.elf secondary-outputs
 
 # Tool invocations
-Wiper_System_Project.elf Wiper_System_Project.map: $(OBJS) $(USER_OBJS) C:\Users\Abirami\Downloads\Embedded_Project\Embedded_Project\Wiper_System_Project\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Wiper_System_Project.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Abirami\Downloads\Embedded_Project\Embedded_Project\Wiper_System_Project\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Wiper_System_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Wiper_System_Project.elf Wiper_System_Project.map: $(OBJS) $(USER_OBJS) C:\Users\Daniya\Downloads\Embedded_Project\Embedded_Project\Wiper_System_Project\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Wiper_System_Project.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Daniya\Downloads\Embedded_Project\Embedded_Project\Wiper_System_Project\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Wiper_System_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
