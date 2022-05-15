@@ -106,6 +106,17 @@ It is implemented with the help of STM32 with the desired operation of turning o
 
 
 
+# OUTPUT
+# Engine on
+![ENGINE ON](https://user-images.githubusercontent.com/101271806/168483513-56817586-e377-4b3d-9edc-57aa70a3aad0.jpg)
+# Wiper slow speed
+![WIPER-SLOW SPEED](https://user-images.githubusercontent.com/101271806/168483516-c298357a-3412-4459-9732-647f2a56564a.jpg)
+# Wiper moderate speed
+![WIPER-MODERATE SPEED](https://user-images.githubusercontent.com/101271806/168483521-385bab3e-b36f-4469-aded-0539c454ff37.jpg)
+# Wiper fast speed
+![WIPER-FAST SPEED](https://user-images.githubusercontent.com/101271806/168483527-c2bb94b2-775b-4c6a-a211-78801c9a4af7.jpg)
+# Engine off
+![ENGINE OFF](https://user-images.githubusercontent.com/101271806/168483535-4929eb6f-b98b-4faa-b511-07ec74fd09f3.jpg)
 
 
 
